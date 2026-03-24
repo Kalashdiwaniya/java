@@ -1,0 +1,11 @@
+import java.util.*;
+public class streamapi1{
+    public static void main(String[] args) {
+      //Min and Max using compareTo method
+      int min = l.stream().min((x,y) -> x.compareTo(y)).get();
+      int max = l.stream().max((x,y) -> x.compareTo(y)).get();
+      System.out.println("Min: " + min);
+      System.out.println("Max: " + max);
+
+    }
+}
